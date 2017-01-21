@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\NewsDb.dll.config
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\NewsDb.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\NewsDb.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\EntityFramework.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\EntityFramework.xml
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\obj\Release\NewsDb.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\obj\Release\NewsDb.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\NewsDb\obj\Release\NewsDb.pdb

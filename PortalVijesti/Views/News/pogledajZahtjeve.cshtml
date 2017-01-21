@@ -1,0 +1,28 @@
+﻿@model List<Razredi.Korisnik>
+   
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    @if (Model!=null)
+    {
+        <h1>
+            Lista korisnika koji žele postati autori:
+            </h1>
+            <br />
+            <h3>
+            @foreach (var item in Model)
+            {
+                
+                    @item.name
+                    <br />
+                    @Html.ActionLink("Dodaj autora", "odobriZahtjev", null, new { Id=item.Id }) 
+                
+            }
+        </h3>
+
+    }
+</body>
+</html>

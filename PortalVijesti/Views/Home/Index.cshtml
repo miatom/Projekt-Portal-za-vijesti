@@ -1,0 +1,61 @@
+﻿@model PortalVijesti.Models.HomePage
+@{
+    ViewData["Title"] = "Vijesti";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+@if (Model != null)
+{
+    <h1>
+        @if (Model.IsUser)
+        {
+            <a class="btn" style="background-color:antiquewhite" asp-controller="News" asp-action="Index2">Pogledaj vijesti po kategoriji</a>
+        }
+        
+        @if (Model.IsAdmin)
+        {
+            @using (Html.BeginForm("pogledajZahtjeve", "News"))
+            {
+
+                <input type="submit" class="btn" style="background-color:antiquewhite" value="Pogledaj zahtjeve" />
+            }
+        }
+        &nbsp;
+        @if (Model.IsUser && Model.IsAuthor==false && Model.IsAdmin==false)
+         {
+                       
+             @using(Html.BeginForm("AutorZahtjev", "News", new { id = Model.userid }))
+              {
+
+                <input type = "submit" class="btn" style="background-color:antiquewhite" value="Postani autor" />
+              }
+
+        }
+
+
+    </h1>
+    <br />
+    <h2>Top news</h2>
+    <hr />
+   
+        @foreach (var item in Model.lista)
+        {
+            <h3> @item.Kategorija</h3><br />
+            <h4>@item.Title</h4>
+            @if (Model.IsUser)
+            {
+                @Html.ActionLink("Pogledaj vijest", "ReadNews", "News", new { id = item.NId })
+            }
+            <hr />
+        }
+
+    }
+</body>
+
+</html>
+

@@ -1,0 +1,65 @@
+﻿@model PortalVijesti.Models.VijestZaPrikaz
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1 style="font:400">@Model.vijest.Title</h1>
+    <hr />
+    <h2 style="font:400">@Model.vijest.Text</h2>
+    <br />
+    <div>
+       Objavljeno: @Model.vijest.DateCreated &#x270d;<br />
+        @if (Model.isKorisnik)
+        {
+            @Html.ActionLink("Give upvote", "GiveUpvote", null, new { id = Model.vijest.NId })
+        }
+        &#x2714; @Model.vijest.NumUpvote 
+         &nbsp; 
+        @if (Model.isKorisnik)
+        {
+            @Html.ActionLink("Give downvote", "GiveDownvote", null, new { id = Model.vijest.NId })
+        }
+        &#x2718; @Model.vijest.NumDownvote 
+        &nbsp;
+        @if (Model.IsAdmin || Model.vijest.AuthorId==Model.userid)
+        {
+            @Html.ActionLink("Update","UpdateNews",null,new { Nid=Model.vijest.NId})
+
+        }
+        <br />
+
+        <p>
+        Komentari:
+        @if (Model.komentari!=null)
+        {
+            @foreach (var kom in Model.comments)
+            {
+                <hr />
+                <div>
+                  @kom.username:  @kom.text     <br />
+               </div>
+            }
+
+        }
+        </p>
+        <br />
+  
+    </div>
+    
+        @if (Model.isKorisnik)
+        {
+            <h3>
+                Dodaj Komentar:
+                @using (Html.BeginForm("AddComment", "News", new { id = Model.vijest.NId }))
+                {
+                    @Html.TextArea("Text", null, new { @class = "text", required = "required" });
+                    <input type="submit" class="btn" style="background-color:antiquewhite" value="Dodaj komentar" />
+                }
+            </h3>
+        }
+    
+</body>
+</html>

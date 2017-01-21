@@ -1,0 +1,52 @@
+﻿@model PortalVijesti.Models.NewsAndCategory
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1 style="font:400">@Model.category</h1>
+
+    @if (Model.CNews != null)
+    {
+        @foreach (var item in Model.CNews)
+        {
+            <hr />
+               <div>@item.Title <br /> 
+                  <p>Objavljeno: @item.DateCreated</p>
+                   @Html.ActionLink("Pogledaj vijest", "ReadNews", "News", new { id=item.NId })
+                   &nbsp;
+                   @if ( Model.userid==item.AuthorId || Model.IsAdmin)
+                   {
+                    @Html.ActionLink("Obriši vijest", "DeleteNews", "News", new { id = item.NId, category = Model.category })
+                   }
+                  
+               </div>
+
+           
+
+        }
+
+    }
+    <br />
+  @if (Model.isAuthorOrAdmin == true)
+  {
+    @using (Html.BeginForm("AddNews","News",new { category = Model.category }))
+    {
+        @Html.TextBox("Naslov",null, new { @class = "text", required = "required" });<br />
+        @Html.TextArea("Text",null, new { @class = "text",  required = "required" });
+        //@Html.ActionLink("Dodaj vijest", "AddNews", null, new { category = Model.category })
+       
+        <input type="submit" class="btn" style="background-color:antiquewhite" value="Dodaj vijest"/>
+    }
+ }
+
+  
+
+
+
+
+
+</body>
+</html>

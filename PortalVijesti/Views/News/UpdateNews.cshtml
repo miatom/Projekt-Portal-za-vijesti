@@ -1,0 +1,23 @@
+﻿@model Razredi.News
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>
+       @Model.Title
+    </h1>
+    <hr />
+    @using (Html.BeginForm("ChangeNews", "News", new { NId = Model.NId, naslov=Model.Title, text=Model.Text }))
+    {
+        @Html.TextBox("Naslov", Model.Title, new { @class = "text", required = "required" });<br />
+        @Html.TextArea("Text", Model.Text, new { @class = "text", required = "required" });
+        //@Html.ActionLink("Dodaj vijest", "AddNews", null, new { category = Model.category })
+
+        <input type="submit" class="btn" style="background-color:antiquewhite" value="Dodaj vijest" />
+    }
+</body>
+</html>
+ 

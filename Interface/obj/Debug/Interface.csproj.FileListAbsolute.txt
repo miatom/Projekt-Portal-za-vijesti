@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\Interface.dll.config
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\Interface.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\Interface.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\NewsDb.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\NewsDb.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\obj\Debug\Interface.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Interface\obj\Debug\Interface.pdb

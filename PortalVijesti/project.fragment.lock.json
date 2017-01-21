@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "exports": {
+    "Interface/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Release/Interface.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Release/Interface.dll": {}
+      },
+      "contentFiles": {
+        "bin/Release/Interface.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "NewsDb/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Release/NewsDb.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
+        "bin/Release/NewsDb.dll": {}
+      },
+      "contentFiles": {
+        "bin/Release/NewsDb.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Razredi/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Release/Razredi.dll": {}
+      },
+      "runtime": {
+        "bin/Release/Razredi.dll": {}
+      },
+      "contentFiles": {
+        "bin/Release/Razredi.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

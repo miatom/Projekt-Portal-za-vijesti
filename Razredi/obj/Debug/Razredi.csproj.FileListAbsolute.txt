@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Google disk\faks\JavaScript\ProjektCSharp\Razredi\bin\Debug\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\JavaScript\ProjektCSharp\Razredi\bin\Debug\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\JavaScript\ProjektCSharp\Razredi\obj\Debug\Razredi.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Google disk\faks\JavaScript\ProjektCSharp\Razredi\obj\Debug\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\JavaScript\ProjektCSharp\Razredi\obj\Debug\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\bin\Debug\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\bin\Debug\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\obj\Debug\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\obj\Debug\Razredi.pdb

@@ -1,0 +1,36 @@
+﻿@model PortalVijesti.Models.StranicaKategorija
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    
+    @if (Model != null)
+    {
+        @if (Model.IsAdmin)
+        {          
+                  
+
+        }
+        <h1>Popis svih kategorija</h1>
+        @foreach (var item in Model.sveKategorije)
+        {
+            <hr />
+            <div>
+                @item.ToString()
+                &nbsp;
+                
+                @Html.ActionLink("See all news", "NewsList", null, new { category=item})
+            </div>
+           
+        }
+        <br />
+       // @Html.ActionLink("Dodaj admina","AddAdmin")
+       
+
+       
+    }
+</body>
+</html>

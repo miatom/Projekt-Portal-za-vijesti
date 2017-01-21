@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\bin\Release\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\bin\Release\Razredi.pdb
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\obj\Release\Razredi.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\obj\Release\Razredi.dll
+C:\Users\Lenovo\Google disk\faks\c#\ProjektCSharp\Razredi\obj\Release\Razredi.pdb
