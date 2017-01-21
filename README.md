@@ -18,3 +18,6 @@
 - omogućena je prijava s lokalnog računa
 - prijava s Google računom postoji kao mogućnost, ali postoji još
   neka greška koju je potrebno ispraviti
+- što se tiče testiranja aplikacije svaka nova prijava (local account) stvara korisnika koji ima prethodno
+  opisane ovlasti, ukoliko se želi vidjeti "autorska" strana logirati se možete pomoću idućeg 
+  računa email: autor1@mail.com te password: Autor1!
