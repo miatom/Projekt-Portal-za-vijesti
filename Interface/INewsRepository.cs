@@ -41,9 +41,7 @@ namespace Interface
 
     public class NewsRepository : INewsRepository
     {
-        //private const string ConnectionString =
-           // "Server=(localdb)\\mssqllocaldb;Database=NewsPortalDb101;Trusted_Connection=True;MultipleActiveResultSets=true";
-          // "Server=tcp:vjestinacsharp.database.windows.net,1433;Initial Catalog=vijestiportal;Persist Security Info=False;User ID={miatomaic};Password={Aim1ludi#};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        
         private NewsDbContext  _context; // relacijska baza podataka
 
         public NewsRepository(NewsDbContext context) // konstruktor repozitorija
